@@ -18,6 +18,15 @@
     }
 }
 
+@media (max-width: 1183px) {
+    .cover__link {
+        padding-top: calc((100vw/1.6 - 250px) / 2);
+        padding-right: calc((100vw - 560px) / 2);
+        padding-bottom: calc((100vw/1.6 - 250px) / 2);
+        padding-left: calc((100vw - 560px) / 2);
+    }
+}
+
 @media (max-width: 1023px) {
     .cover__link {
         padding: 115px 104px 115px 104px;
@@ -26,12 +35,9 @@
 
 @media (max-width: 767px) {
     .cover__link {
-        padding: 66px 68.5px 66px 68.5px;
-    }
-}
-
-@media (max-width: 424px) {
-    .cover__link {
-        padding: 33px 16px 33px 16px;
+        padding-top: calc((100vw/1.6 - 134px) / 2);
+        padding-right: calc((100vw - 288px) / 2);
+        padding-bottom: calc((100vw/1.6 - 134px) / 2);
+        padding-left: calc((100vw - 288px) / 2);
     }
 }

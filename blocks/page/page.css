@@ -5,27 +5,8 @@
    font-family: 'Inter';
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1183px) {
    .page {
-      max-width: 1024px;
-   }
-}
-
-@media (max-width: 1023px) {
-   .page {
-      max-width: 768px;
-   }
-}
-
-@media (max-width: 767px) {
-   .page {
-      max-width: 425px;
-   }
-}
-
-@media (max-width: 424px) {
-   .page {
-      max-width: 320px;
-      min-width: 320px;
+      width: 100vw;
    }
 }
