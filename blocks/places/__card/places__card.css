@@ -23,7 +23,7 @@
 @media (max-width: 767px) {
     .places__card {
         margin: 0;
-        grid-template-columns: min-content;
+        grid-template-columns: 100%;
         grid-template-rows: minmax(min-content, max-content);
         row-gap: 32px;
     }

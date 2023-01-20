@@ -1,3 +1,11 @@
 .places__paragraps {
     max-width: 484px;
+    width: 100%;
+}
+
+@media (max-width: 320px) {
+    .places__paragraps {
+        max-width: 288px;
+        width: 100%;
+    }
 }
